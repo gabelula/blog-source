@@ -1,0 +1,8 @@
+baseurl = "http://blog.gaba.io/"
+languageCode = "en-us"
+title = "Bitacora de viaje"
+theme = "gabas"
+
+[params]
+  description = "hacker-spaces, community journalism, free school, free software, natural parenting, feminism, community, love, immigrant everywhere"
+  copyright = "MIT License"
