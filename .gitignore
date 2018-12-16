@@ -2,3 +2,4 @@ public/
 old.public/
 TODO.md
 .DS_Store
+deploy.sh

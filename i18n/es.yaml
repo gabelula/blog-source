@@ -1,0 +1,23 @@
+---
+- id: latestPosts
+  translation: "Ultimos escritos"
+
+- id: seeMore
+  translation: "Ver más"
+  
+- id: blogHeading
+  translation: "Escritos"
+
+- id: pageNotFound
+  translation: "Esa página no existe."
+
+- id: visitHomePage
+  translation: "Visitar la página principal"
+
+- id: readingTime
+  translation:
+    one: "Un minuto de lectura"
+    other: "{{ .Count }} minutos de lectura"
+
+- id: backToPosts
+  translation: "Volver a los escritos"

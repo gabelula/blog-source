@@ -19,7 +19,7 @@ with love & peace,
 
 gaba
 
-If you want to contact me please send me a mail to avioncito at gabelula dot com or contact me in irc.oftc.net. My GPG key is http://gabelula.com/59CABD19.key
+If you want to contact me please send me a mail to avioncito at gabelula dot com or contact me in irc.oftc.net. My GPG key is https://pgp.mit.edu/pks/lookup?op=get&search=0x180DB06C59CABD19
 
  [1]: https://github.com/gabelula
  [2]: https://git.tacticaltech.org

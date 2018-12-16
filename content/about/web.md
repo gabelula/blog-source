@@ -37,4 +37,4 @@ Todxs tenemos opiniones, pensamientos, dudas e ideas que nos persiguen. Quiero, 
 
 Y seguramente muchísimos cientos de puntos más que afectan el lugar donde HOY estoy parada y como veo al mundo.
 
-Sobre todo esto intenta ser un espacio, al que retomo luego de muchísimos años de descuidos y desesperanzas.
+Sobre todo esto intenta ser un espacio, al que retomo luego de muchísimos años de descuidos y desesperanzas. Y fuck the english language y la real academia española! Escribo con mezcla y a medio cocinar.

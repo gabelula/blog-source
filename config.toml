@@ -1,4 +1,4 @@
-baseurl = "http://www.gabelula.com"
+baseurl = "https://blog.gabelula.com"
 languageCode = "es"
 DefaultContentLanguage = "es"
 contentdir          = "content"
@@ -8,12 +8,30 @@ publishdir          = "public"
 theme               = "gabas"
 author              = "Gaba"
 
+[permalinks]
+blog  = "blog/:slug/"
+
+
+[params]
+  dateform               = "Jan 2, 2006"
+  dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+  copyright = "MIT License"
+  include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+  latestpostscount       = 5                             # how many posts to display on the home page
+  extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+  faviconfile            = "img/leaf.ico"
+  github                 = "//github.com/gabelula"
+  lang                   = "es"
+  noshowreadtime         = false
+  twitter                = "//twitter.com/gaba"
+  mastodon               = "//systerserver.town/@gaba"
+
 [languages]
   [languages.en]
     title = "pandora's box"
     [languages.en.params]
       description = "CW: navigate with care"
-      selfintro = "hacker spaces, community journalism, free school, free software, intersectional feminism, love, communities, immigrant everywhere, prison abolishment, governance models, sustainability models, community care"
+      selfintro = "hacker spaces, community journalism, free school, free software, intersectional feminism, love, communities, immigrant everywhere, prison abolishment, governance models, sustainability models, community care, always half baked"
     [[languages.en.menu.main]]
     name                   = "About"
     weight                 = -140
@@ -47,7 +65,7 @@ author              = "Gaba"
     title = "la bitacora de gaba"
     [languages.es.params]
       description = "de todo como en botica"
-      selfintro = "periodismo comunitario, escuela libre, software libre, feminismo interseccional, amor, comunidades, inmigrante en todos lados, justicia restorativa, modelos de gobernanza, modelos de sustentabilidad, cuidado comunitario"
+      selfintro = "periodismo comunitario, escuela libre, software libre, feminismo interseccional, amor, comunidades, inmigrante en todos lados, justicia restorativa, modelos de gobernanza, modelos de sustentabilidad, cuidado comunitario, siempre un experimento"
     [[languages.es.menu.main]]
     name                   = "¿Qué?"
     weight                 = -140
@@ -77,22 +95,3 @@ author              = "Gaba"
     weight                 = -100
     identifier             = "lecturas"
     url                    = "/lecturas/"
-
-[permalinks]
-blog  = "blog/:slug/"
-
-
-
-[params]
-  dateform               = "Jan 2, 2006"
-  dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-  copyright = "MIT License"
-  include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
-  latestpostscount       = 5                             # how many posts to display on the home page
-  extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
-  faviconfile            = "img/leaf.ico"
-  github                 = "//github.com/gabelula"
-  lang                   = "es"
-  noshowreadtime         = false
-  twitter                = "//twitter.com/gaba"
-  mastodon               = "//systerserver.town/@gaba"
