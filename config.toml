@@ -1,6 +1,6 @@
-baseurl = "http://blog.gabelula.com"
+baseurl = "http://www.gabelula.com"
 languageCode = "es"
-title = "la bitacora de gaba"
+DefaultContentLanguage = "es"
 contentdir          = "content"
 builddrafts         = true
 canonifyurls        = true
@@ -8,45 +8,85 @@ publishdir          = "public"
 theme               = "gabas"
 author              = "Gaba"
 
+[languages]
+  [languages.en]
+    title = "pandora's box"
+    [languages.en.params]
+      description = "CW: navigate with care"
+      selfintro = "hacker spaces, community journalism, free school, free software, intersectional feminism, love, communities, immigrant everywhere, prison abolishment, governance models, sustainability models, community care"
+    [[languages.en.menu.main]]
+    name                   = "About"
+    weight                 = -140
+    identifier             = "about"
+    url                    = "/about/"
+
+    [[languages.en.menu.main]]
+    name                   = "Listening"
+    weight                 = -130
+    identifier             = "audios"
+    url                    = "/audios/"
+
+    [[languages.en.menu.main]]
+    name                   = "Gatherings"
+    weight                 = -120
+    identifier             = "encuentros"
+    url                    = "/encuentros/"
+
+    [[languages.en.menu.main]]
+    name                   = "Blog"
+    weight                 = -110
+    identifier             = "blog"
+    url                    = "/blog/"
+
+    [[languages.en.menu.main]]
+    name                   = "Reading"
+    weight                 = -100
+    identifier             = "lecturas"
+    url                    = "/lecturas/"
+  [languages.es]
+    title = "la bitacora de gaba"
+    [languages.es.params]
+      description = "de todo como en botica"
+      selfintro = "periodismo comunitario, escuela libre, software libre, feminismo interseccional, amor, comunidades, inmigrante en todos lados, justicia restorativa, modelos de gobernanza, modelos de sustentabilidad, cuidado comunitario"
+    [[languages.es.menu.main]]
+    name                   = "¿Qué?"
+    weight                 = -140
+    identifier             = "about"
+    url                    = "/about/"
+
+    [[languages.es.menu.main]]
+    name                   = "Escuchando"
+    weight                 = -130
+    identifier             = "audios"
+    url                    = "/audios/"
+
+    [[languages.es.menu.main]]
+    name                   = "Encuentros"
+    weight                 = -120
+    identifier             = "encuentros"
+    url                    = "/encuentros/"
+
+    [[languages.es.menu.main]]
+    name                   = "Escritos"
+    weight                 = -110
+    identifier             = "blog"
+    url                    = "/blog/"
+
+    [[languages.es.menu.main]]
+    name                   = "Lecturas"
+    weight                 = -100
+    identifier             = "lecturas"
+    url                    = "/lecturas/"
+
 [permalinks]
 blog  = "blog/:slug/"
 
-[[menu.main]]
-name                   = "About"
-weight                 = -140
-identifier             = "about"
-url                    = "/about/"
 
-[[menu.main]]
-name                   = "Escuchando"
-weight                 = -130
-identifier             = "audios"
-url                    = "/audios/"
-
-[[menu.main]]
-name                   = "Encuentros"
-weight                 = -120
-identifier             = "encuentros"
-url                    = "/encuentros/"
-
-[[menu.main]]
-name                   = "Escritos"
-weight                 = -110
-identifier             = "escritos"
-url                    = "/escritos/"
-
-[[menu.main]]
-name                   = "Lecturas"
-weight                 = -100
-identifier             = "lecturas"
-url                    = "/lecturas/"
 
 [params]
-  description = "de todo como en botica"
   dateform               = "Jan 2, 2006"
   dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
   copyright = "MIT License"
-  selfintro = "hacker spaces, periodismo comunitario, escuela libre, software libre, feminismo interseccional, amor, comunidades, inmigrante en todos lados, prison abolishment, modelos de gobernanza, modelos de sustentabilidad, cuidado comunitario"
   include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
   latestpostscount       = 5                             # how many posts to display on the home page
   extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.

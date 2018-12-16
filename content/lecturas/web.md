@@ -15,9 +15,4 @@ title = "En la world WILD web"
 
 - [On how fb fucked it up](https://www.nytimes.com/2018/11/14/technology/facebook-data-russia-election-racism.html).
 - [On AI](https://www.forbes.com/sites/janetwburns/2018/10/28/algorithms-and-uberland-are-driving-us-into-technocratic-serfdom/#2428f9df6705)
-
-other ones
-allyship https://pad.riseup.net/p/AOm7RKSMxmU8
-sift https://pad.riseup.net/p/EFiy9vLksWJo
-
-mastodon hashtag
+- [Random](https://systerserver.town/web/timelines/tag/toread)
