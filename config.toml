@@ -1,8 +1,58 @@
-baseurl = "http://blog.gaba.io/"
-languageCode = "en-us"
-title = "Bitacora de viaje"
-theme = "gabas"
+baseurl = "http://blog.gabelula.com"
+languageCode = "es"
+title = "la bitacora de gaba"
+contentdir          = "content"
+builddrafts         = true
+canonifyurls        = true
+publishdir          = "public"
+theme               = "gabas"
+author              = "Gaba"
+
+[permalinks]
+blog  = "blog/:slug/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -140
+identifier             = "about"
+url                    = "/about/"
+
+[[menu.main]]
+name                   = "Escuchando"
+weight                 = -130
+identifier             = "audios"
+url                    = "/audios/"
+
+[[menu.main]]
+name                   = "Encuentros"
+weight                 = -120
+identifier             = "encuentros"
+url                    = "/encuentros/"
+
+[[menu.main]]
+name                   = "Escritos"
+weight                 = -110
+identifier             = "escritos"
+url                    = "/escritos/"
+
+[[menu.main]]
+name                   = "Lecturas"
+weight                 = -100
+identifier             = "lecturas"
+url                    = "/lecturas/"
 
 [params]
-  description = "hacker-spaces, community journalism, free school, free software, natural parenting, feminism, community, love, immigrant everywhere"
+  description = "de todo como en botica"
+  dateform               = "Jan 2, 2006"
+  dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
   copyright = "MIT License"
+  selfintro = "hacker spaces, periodismo comunitario, escuela libre, software libre, feminismo interseccional, amor, comunidades, inmigrante en todos lados, prison abolishment, modelos de gobernanza, modelos de sustentabilidad, cuidado comunitario"
+  include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+  latestpostscount       = 5                             # how many posts to display on the home page
+  extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
+  faviconfile            = "img/leaf.ico"
+  github                 = "//github.com/gabelula"
+  lang                   = "es"
+  noshowreadtime         = false
+  twitter                = "//twitter.com/gaba"
+  mastodon               = "//systerserver.town/@gaba"

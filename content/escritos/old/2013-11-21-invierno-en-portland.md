@@ -1,5 +1,5 @@
 ---
-title: invierno en portland
+title: Invierno en portland
 author: gaba
 layout: post
 date: 2013-11-21
@@ -15,8 +15,8 @@ tags:
   - vision:sky=0537
 ---
 <div>
-  <img src='http://farm6.staticflickr.com/5476/10984259986_4c9331a0e5_b.jpg' style='max-width:600px;' /> 
-  
+  <img src='http://farm6.staticflickr.com/5476/10984259986_4c9331a0e5_b.jpg' style='max-width:600px;' />
+
   <div>
     <p>
       via Flickr http://flic.kr/p/hJDcNS

@@ -1,5 +1,5 @@
 ---
-title: from shapefile format to geojson
+title: From shapefile format to geojson
 author: gaba
 layout: post
 date: 2013-09-10

@@ -1,5 +1,5 @@
 ---
-title: rackspace y como desaparecio mi blog
+title: Rackspace y como desaparecio mi blog
 author: gaba
 layout: post
 date: 2013-08-15

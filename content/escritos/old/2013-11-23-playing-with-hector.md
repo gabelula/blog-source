@@ -1,5 +1,5 @@
 ---
-title: hector in da-haus
+title: Hector in da-haus
 author: gaba
 layout: post
 date: 2013-11-24
@@ -13,8 +13,8 @@ tags:
   - vision:outdoor=0593
 ---
 <div>
-  <img src='http://farm6.staticflickr.com/5492/11020406173_de0ab8e04d_b.jpg' style='max-width:600px;' /> 
-  
+  <img src='http://farm6.staticflickr.com/5492/11020406173_de0ab8e04d_b.jpg' style='max-width:600px;' />
+
   <div>
     <p>
       via Flickr http://flic.kr/p/hMQsNZ

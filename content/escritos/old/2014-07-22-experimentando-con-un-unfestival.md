@@ -1,5 +1,5 @@
 ---
-title: experimentando con un UnFestival
+title: Experimentando con un UnFestival
 author: gaba
 layout: post
 date: 2014-07-22

@@ -1,7 +1,7 @@
 +++
 date = "2015-11-27T12:55:26-08:00"
 draft = true
-title = "New Blog & Regenerating Identity"
+title = "New Blog & gohugo"
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-title: they plopped to the ground at my feet
+title: They plopped to the ground at my feet
 author: gaba
 layout: post
 date: 2013-09-28
@@ -8,11 +8,11 @@ categories:
   - botica
 ---
 I saw my life
-  
+
 branching out before
-  
+
 me like the green
-  
+
 fig tree in the story
 
 &#8230;
