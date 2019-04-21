@@ -28,7 +28,7 @@ blog  = "blog/:slug/"
 
 [languages]
   [languages.en]
-    title = "pandora's box"
+    title = "Pandora's box"
     [languages.en.params]
       description = "CW: navigate with care"
       selfintro = "hacker spaces, community journalism, free school, free software, intersectional feminism, love, communities, immigrant everywhere, prison abolishment, governance models, sustainability models, community care, always half baked"
@@ -62,7 +62,7 @@ blog  = "blog/:slug/"
     identifier             = "lecturas"
     url                    = "/lecturas/"
   [languages.es]
-    title = "la bitacora de gaba"
+    title = "La bitacora de gaba"
     [languages.es.params]
       description = "de todo como en botica"
       selfintro = "periodismo comunitario, escuela libre, software libre, feminismo interseccional, amor, comunidades, inmigrante en todos lados, justicia restorativa, modelos de gobernanza, modelos de sustentabilidad, cuidado comunitario, siempre un experimento"
